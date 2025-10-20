@@ -10,11 +10,11 @@
     after = [ "network.target" ];
     wantedBy = [ "multi-user.target" ];
     serviceConfig = {
-      ExecStart = "/etc/nixos/module/fetch-config-and-rebuild.sh";
+      ExecStart = "/etc/nixos/fetch-config-and-rebuild.sh";
       Type = "oneshot";
     };
   };
 
   # Include the script in the NixOS system closure
-  environment.etc."nixos/modules/fetch-config-and-rebuild.sh".source = ./fetch-config-and-rebuild.sh;
+  environment.etc."nixos/fetch-config-and-rebuild.sh".source = ./fetch-config-and-rebuild.sh;
 }
