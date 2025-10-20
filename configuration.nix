@@ -106,7 +106,6 @@
     unzip
     nano
     firefox
-    gimp
     # gnome-calendar
     gnome-user-docs
     gnome-usage
@@ -128,7 +127,8 @@
     # gnome-disk-utility
     # gnome-control-center
     # gnome-shell-extensions
-    inkscape-with-extensions
+    arduino-ide
+    python311
   ];
 
   # Configure console keymap
