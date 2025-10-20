@@ -1,0 +1,4 @@
+https://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+sudo git clone https://github.com/atelier-lyon-it/config-nixos-mac.git nixos
+sudo nixos-rebuild switch now
